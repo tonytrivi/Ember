@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,500,200);
+/************** Basic HTML **************/
+body {padding:0px;background-color:#ccc;}
+blockquote {border:none;}
+blockquote p{ font-style:italic;color:#777;font-family:times new roman;}
+hr {border-top:1px solid #e3e3e3;}
+/************** Main Layout & Design **************/
+
+/* Main Width Setup */
+.inner_wrapper {margin:0px auto; width:100%;max-width:1140px;min-width:320px;}
+
+.sourrounding_wrapper  {border-bottom:1px solid #e3e3e3;}
+.sourrounding_wrapper#credits, .footer_area .sourrounding_wrapper, .bottom_area .sourrounding_wrapper {border:none;}
+.footer_area .sourrounding_wrapper {border-bottom:1px solid #444;}
+.joobstrab_area {float:left; width:100%;background-color:#fff;}
+.inner_wrapper {padding:80px 0;}
+#navbar_center .inner_wrapper {padding:0px 0;} 
+#header_slider .inner_wrapper,  #header_slider .container {padding:0px 0%;overflow:hidden;}
+.navbar_area {position:relative; z-index:2;}
+.sourrounding_wrapper#credits{background:none;font-size:.875em;color:#000;}
+#header_slider{background-color:#ccc;background-image:url(../img/shine.png); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+#navbar_center {background:#fff;}
+#bottom_center {background-image: url(../img/bottom_center_bck.png); background-size:cover; background-position: center;}
+#main_top {background:#f4f4f4;}
+.footer_area{background:#212121;}
+
+/************** Typo **************/
+body, p {font: 400 13px/1.75 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;color:#505050;-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+font-smoothing: antialiased;text-rendering: optimizeLegibility;}
+h1, h2, h3, h4, h5, h6 {color:#212121; font-weight:300;font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;line-height:1em;margin:0 0 .2em 0;}
+h1 {font-size:6em;}
+h2 {font-size:3.25em;}
+h3 {font-size:2.5em;}
+h4 {font-size:1.75em;font-weight:500;}
+h5 {font-size:1.25em;font-weight:600;}
+h6 {font-size:1em;font-weight:600;}
+.huge {font-weight:600;}
+.lead {font-weight:400;}
+#credits p{font-size:12px;color:#999;}
+.bottom_area, .bottom_area p, .bottom_area h1, .bottom_area h2, .bottom_area h3, .bottom_area h4, .bottom_area h5, .bottom_area h6, .footer_area h1, .footer_area h2, .footer_area h3, .footer_area h4, .footer_area h5, .footer_area h6 {color:#fff;}
+.footer_area, .footer_area p {color:#777;}
+/************** Navigation & Logo **************/
+
+/* The Logo */
+.navbar-brand h1{padding:0px 0;margin:0 0 0 10px; font-size:13px;font-weight:600;letter-spacing:.1em;}
+.navbar-brand h1:hover {color:#fff;}
+/* The Navbar */
+#navbar_center, .boxed #navbar_center .inner_wrapper {}
+#navbar_center{margin-bottom:-11px;}
+
+/* Navbar Link Element*/
+.main_nav .navigation li {padding:0 20px;}
+.main_nav .navigation li a {color:#505050;padding:30px 10px;}
+.main_nav .navigation li a:hover, .main_nav .navigation li:hover a {color:#fff;}
+.main_nav ul.navigation li.parent ul.nav-child {margin-left:-20px;}
+
+/*General navbar height */
+.main_nav .navigation li a, .navbar-brand h1 {height:80px; line-height:80px;}
+
+/*Bootstrap cutomizations */
+.btn {border:none;border-radius:3px;font-size:1em;}
+
+/* colorset*/
+a, .horizon-menu a:hover{color:#ff4343;}
+.btn-info, .main_nav .navigation li:hover, .bottom_area, .navbar-brand h1:hover {background:none;background-color:#ff4343;}
+.module-title span, .main_nav .navigation li.active, .main_nav .navigation li:hover{border-bottom:1px solid #ff4343;}
+
+/* Mobile customizations */
+@media (max-width: 767px) {
+body {font-size:18px;text-align:center;}
+h1 {font-size:7.25rem;}
+h2 {font-size:6rem;}
+h3 {font-size:4.5rem;}
+h4 {font-size:3.25rem;}
+h5 {font-size:2.25rem;}
+h6 {font-size:1.5rem;}
+}
+
