@@ -136,6 +136,7 @@
     <Content Include="Content\Template\font\fontawesome-webfont.svg" />
     <Content Include="Content\Template\img\bottom_center_bck.png" />
     <Content Include="Content\Template\img\ember_logo.JPG" />
+    <Content Include="Content\Template\img\ember_logo_full.JPG" />
     <Content Include="Content\Template\img\glyphicons-halflings-white.png" />
     <Content Include="Content\Template\img\glyphicons-halflings.png" />
     <Content Include="Content\Template\img\laptop.png" />
