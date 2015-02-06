@@ -135,6 +135,7 @@
     <Content Include="Content\Template\font\flexslider-icon.svg" />
     <Content Include="Content\Template\font\fontawesome-webfont.svg" />
     <Content Include="Content\Template\img\bottom_center_bck.png" />
+    <Content Include="Content\Template\img\ember_logo.JPG" />
     <Content Include="Content\Template\img\glyphicons-halflings-white.png" />
     <Content Include="Content\Template\img\glyphicons-halflings.png" />
     <Content Include="Content\Template\img\laptop.png" />
@@ -187,6 +188,7 @@
     <Content Include="Content\Template\font\fontawesome-webfont.ttf" />
     <Content Include="Content\Template\font\fontawesome-webfont.woff" />
     <Content Include="Content\Template\font\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\ember.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\flexslider-min.js" />
